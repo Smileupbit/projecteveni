@@ -148,14 +148,14 @@ class _SignUpPageState extends State<SignUpPage> {
                     builder: (context) => PersonalInfoPage())
               );
             }: null,
-      style: ElevatedButton.styleFrom(
-       backgroundColor: (isChecked1 && isChecked2)
-           ? const Color(0xff00D2A0)
-           : Colors.grey,
-       shape: RoundedRectangleBorder(
-         borderRadius: BorderRadius.circular(8.0),
-    ),
-    ),
+            style: ElevatedButton.styleFrom(
+             backgroundColor: (isChecked1 && isChecked2)
+                 ? const Color(0xff00D2A0)
+                 : Colors.grey,
+             shape: RoundedRectangleBorder(
+               borderRadius: BorderRadius.circular(8.0),
+          ),
+          ),
             child: const Text('다음'),
           )
         ],
